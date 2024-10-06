@@ -3,7 +3,7 @@
 I am passionate about software development and technology in general, with a particular interest in improving, streamlining, and automating processes in both real and virtual environments.
 
 ### Software
-Currently, my primary focus is on enhancing the quality of the platform and services at Weedmaps while ensuring that our software engineering teams maintain or increase their productivity and delivery cadence.
+Currently, my primary focus is on enhancing the quality of the platform and services at Weedmaps while ensuring that our software engineering teams maintain or increase their productivity and delivery cadence with an experience they enjoy.
 
 ### Hardware
 Software is what I primarily work with.  However, I do miss the days of handling every aspect of building and providing services down to mounting motherboards into cases, installing memory, cards, drives, uninterruptible power supplies, etc.
