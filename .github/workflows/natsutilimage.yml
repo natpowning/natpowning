@@ -27,8 +27,8 @@ jobs:
         run: |
           docker buildx build --push \
             --file k8s/natsutilimage/Dockerfile \
-            --tag ghcr.io/${{ github.repository_owner }}/natsutilimage:${{ github.ref_name }} \
-            --tag ghcr.io/${{ github.repository_owner }}/natsutilimage:latest \
+            --tag ghcr.io/${{ github.repository_owner }}/natsutil:${{ github.ref_name }} \
+            --tag ghcr.io/${{ github.repository_owner }}/natsutil:latest \
             .
 
       - name: Create GitHub release
