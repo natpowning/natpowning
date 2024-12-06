@@ -32,8 +32,9 @@ RUN wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/p
 # Set zsh as the default shell
 RUN chsh -s $(which zsh)
 
-COPY ../myconfigs/.vimrc /root
-COPY ../myconfigs/.zshrc /root
+# These are at the root of the natpowning repsoitory which should be what's used for build context
+COPY myconfigs/vimrc /root/.vimrc
+COPY myconfigs/zshrc /root/.zshrc
 
 # Set up Oh My Posh in the zsh configuration
 RUN echo 'eval "$(oh-my-posh init zsh --config /root/.poshthemes/your-theme.omp.json)"' >> /root/.zshrc
