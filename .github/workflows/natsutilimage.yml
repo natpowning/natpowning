@@ -27,6 +27,7 @@ jobs:
         run: |
           docker buildx build --push \
             --file k8s/natsutilimage/Dockerfile \
+            --platform linux/amd64,linux/arm64/v8 \
             --tag ghcr.io/${{ github.repository_owner }}/natsutil:${{ github.ref_name }} \
             --tag ghcr.io/${{ github.repository_owner }}/natsutil:latest \
             .
