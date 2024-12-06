@@ -10,10 +10,10 @@ brew install git zsh jandedobbeleer/oh-my-posh/oh-my-posh
 
 #### Linux
 ```
-apt install curl git
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sudo apt install -y curl git zsh
+sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-curl -s https://ohmyposh.dev/install.sh | bash -s
+sudo curl -s https://ohmyposh.dev/install.sh | bash -s
 ```
 
 
