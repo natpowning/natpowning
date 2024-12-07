@@ -33,8 +33,8 @@ jobs:
             .
 
       - name: Create GitHub release
-        if: github.ref_name =~ '^v[0-9]+\.[0-9]+\.[0-9]+-release$'
-        uses: actions/create-release@v1
+      if: startsWith(github.ref_name, 'v') && endsWith(github.ref_name, '-release')
+      uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
