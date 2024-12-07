@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: natsutil
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: natsutil
+  template:
+    metadata:
+      labels:
+        app: natsutil
+    spec:
+      containers:
+      - name: natsutil
+        image: ghcr.io/natpowning/natsutil
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
