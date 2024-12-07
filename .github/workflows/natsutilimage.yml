@@ -33,7 +33,7 @@ jobs:
             .
 
       - name: Create GitHub release
-        if: contains(github.ref_name, '-release')
+        if: startsWith(github.ref_name, 'v') && endsWith(github.ref_name, '-release')
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
