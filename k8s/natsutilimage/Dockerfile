@@ -35,4 +35,4 @@ COPY myconfigs/vimrc /root/.vimrc
 
 WORKDIR /root
 
-CMD ["sh", "-c", "while true; echo Keepalive sleep; do sleep 3600; done"]
+CMD ["sh", "-c", "while true; echo Keepalive sleep; do sleep 60; done"]
