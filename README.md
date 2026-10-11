@@ -1,21 +1,21 @@
 ## Howdy! I'm Nat 👋
 
-I’m a Staff Software Engineer focused on evolving software development into a more efficient, autonomous, AI-assisted discipline.
+I’m a software developer focused on the evolution of software delivery into a more autonomous, AI-assisted discipline. That includes making it possible for people across business and product teams to safely and rapidly turn ideas into prototypes, directly guide outcomes, and make changes through self-service tools and workflows.
 
-My current work centers on building agentic engineering systems that reduce toil for the developers I support and work alongside. The goal is not simply to make engineers faster, but to give them more time and attention for the work that matters most: building novel products, solving meaningful customer problems, and making good technical decisions.
+My focus is on engineering systems that reduce toil, expand who can contribute to software development, and give developers more time for work that demands their judgment and creativity: improving how systems work, solving big problems, and making sound technical decisions. The goal is to help business and product developers move independently from idea to solid implementation, with the context, guardrails, and review processes needed to make that autonomy reliable.
 
-I’m especially interested in higher levels of SDLC automation — Level 4 and Level 5 systems that can self-initiate work by identifying opportunities across codebases, opening and refining tickets, prioritizing improvements, creating execution plans, and producing pull requests that are ready for human review or AI-assisted approval depending on context, risk, compliance requirements, and SDLC posture.
+Professionally, I work as a Principal Software Engineer at Weedmaps, focused on developer experience as we continue to evolve our adoption of agentic engineering. Much of my spare time on evenings and weekends goes into supporting my wife’s efforts building Stern Anchor LLC, a small company primarily focused on SaaS products. Stern Anchor gives me a flexible environment to experiment with more ambitious levels of AI automation and bleeding-edge SDLC methods. Those experiences help me identify practical ways to safely introduce new approaches into the larger, compliance-heavy environment at Weedmaps.
 
-These systems should continuously improve the software around them: making codebases cleaner, more efficient, easier to maintain, and easier for humans to understand and work with.
+A particular interest is systems that can initiate and carry work forward with human oversight appropriate to the risk, policy, and engineering context. Making that work requires useful context, reliable execution environments, clear boundaries, and feedback that helps us understand whether these systems are improving both the software and the experience of maintaining it.
 
 Areas I’m focused on include:
-
 - Agentic engineering and autonomous development workflows
-- AI-driven code review, planning, and implementation
-- Developer experience and toil reduction
-- CI/CD as an execution substrate for AI systems
+- Self-service prototyping and software delivery for business and product teams
+- AI-assisted planning, implementation, and code review
+- Developer experience, toil reduction, and delivery metrics
+- CI/CD and platform infrastructure for agent execution
+- Context engineering and multi-model orchestration
 - Policy-aware automation and SDLC governance
 - Cross-repository analysis, refactoring, and modernization
-- Multi-model AI orchestration for software delivery
 
-I bring nearly 30 years of full-stack software engineering experience, with a strong background in platform engineering, DevEx, CI/CD, and engineering systems. My focus today is on helping teams build better products by creating systems that can reason about, improve, and maintain software at scale.
+I have nearly 30 years of full-stack software engineering experience to inform this work, including a strong background in platform engineering, DevEx, CI/CD, and general systems engineering. Across these efforts, my focus is on helping teams deliver better products while making their software easier to understand, maintain, and evolve.
